@@ -5,8 +5,8 @@ path = name.lower().replace("-", "_").replace(" ", "_")
 # Your version number should follow https://python.org/dev/peps/pep-0440 and
 # https://semver.org
 version = "0.1.dev0"
-author = "Author Name"
-author_email = ""
-description = ""  # One-liner
-url = ""  # your project homepage
+author = "Emil Ramsvik"
+author_email = "emilseverin93@gmail.com"
+description = "Package for quickly create and share plots using plotly. "  # One-liner
+url = "https://github.com/EmilRamsvik/DataPlot"  # your project homepage
 license = "MIT"  # See https://choosealicense.com
