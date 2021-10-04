@@ -177,36 +177,14 @@
 <span class="sd">&quot;&quot;&quot;</span>
 
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">plotly.graph_objects</span> <span class="k">as</span> <span class="nn">go</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 
 
-<div class="viewcode-block" id="cubic_rectification"><a class="viewcode-back" href="../../source/packages/package_name.module.html#package_name.module.cubic_rectification">[docs]</a><span class="k">def</span> <span class="nf">cubic_rectification</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Rectified cube of an array.</span>
+<div class="viewcode-block" id="DataPlot"><a class="viewcode-back" href="../../source/packages/package_name.module.html#package_name.module.DataPlot">[docs]</a><span class="k">class</span> <span class="nc">DataPlot</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span></div>
 
-<span class="sd">    Parameters</span>
-<span class="sd">    ----------</span>
-<span class="sd">    x : numpy.ndarray</span>
-<span class="sd">        Input array.</span>
-<span class="sd">    verbose : bool, optional</span>
-<span class="sd">        Whether to print out details. Default is ``False``.</span>
-
-<span class="sd">    Returns</span>
-<span class="sd">    -------</span>
-<span class="sd">    numpy.ndarray</span>
-<span class="sd">        Elementwise, the cube of `x` where it is positive and ``0`` otherwise.</span>
-
-<span class="sd">    Note</span>
-<span class="sd">    ----</span>
-<span class="sd">    This is a sample function, using a numpy docstring format.</span>
-
-<span class="sd">    Note</span>
-<span class="sd">    ----</span>
-<span class="sd">    The use of intersphinx will cause :class:`numpy.ndarray` to link to</span>
-<span class="sd">    the numpy documentation page.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cubing and then rectifying </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
-    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">maximum</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">x</span> <span class="o">**</span> <span class="mi">3</span><span class="p">)</span></div>
 </pre></div>
 
               </div>
@@ -227,9 +205,9 @@
     <div class="container">
       <p>
         
-          By Author Name<br/>
+          By Emil Ramsvik<br/>
         
-            &copy; Copyright 2021, Author Name.<br/>
+            &copy; Copyright 2021, Emil Ramsvik.<br/>
       </p>
     </div>
   </footer>
