@@ -12,3 +12,4 @@ Submodules
 .. toctree::
 
    package_name.module
+   package_name.plotly_functions

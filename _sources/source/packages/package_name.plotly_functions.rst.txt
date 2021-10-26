@@ -1,0 +1,7 @@
+package\_name.plotly\_functions module
+======================================
+
+.. automodule:: package_name.plotly_functions
+   :members:
+   :undoc-members:
+   :show-inheritance:
