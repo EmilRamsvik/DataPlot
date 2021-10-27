@@ -1,11 +1,21 @@
 import pytest
 import pandas as pd
+from module import dataplot
 
 
 class TestTestDataCorrect:
     def test_testdata(self):
         df = get_test_data()
         assert (df.x.shape[0] - df.y.shape[0], 0)
+
+    def test_dataplotdataframe(self):
+        test_df = get_test_data()
+        dp = dataplot(test_df)
+
+
+class TestDataPlotInitializesCorrectly:
+    def test_check(self):
+        pass
 
 
 def get_test_data():
